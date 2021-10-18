@@ -14,7 +14,7 @@ $ make
 - code.hex
 - data.hex
 
-`make`すると上の3つのファイルが順に生成されます．
+`make`すると上の6つのファイルが順に生成されます．
 prog.elfはELF形式の実行ファイル、prog.dumpはprog.elfを`objdump -D`コマンドで逆アセンブルしてアセンブリ形式にしたもの、prog.binはprog.dumpをバイナリ形式にしたもの、prog.hexはprog.binをテキスト形式にしてVerilogの`$readmemh`で読めるようにしたものです．
 さらに，code.hex と data.hex は実験で使うためにprog.hexをコードとデータに分離したものです．
 
