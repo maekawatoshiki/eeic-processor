@@ -4,7 +4,7 @@ Total ticks      : 10
 Total time (secs): 10
 Iterations/Sec   : 0
 Iterations       : 1
-Compiler version : GCC11.1.0
+Compiler version : GCC12.2.0
 Compiler flags   : 
 Memory location  : STACK
 seedcrc          : 0xe9f5
